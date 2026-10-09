@@ -1,0 +1,13 @@
+<!doctype html><html lang="zh"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>#1282 界面预览 · 6dbe341</title>
+<style>:root{color-scheme:light dark;--bg:#f6f6f7;--fg:#1d1d1f;--muted:#6e6e73;--card:#fff;--line:#e5e5ea}
+@media (prefers-color-scheme:dark){:root{--bg:#111113;--fg:#f2f2f4;--muted:#9a9aa0;--card:#1c1c1f;--line:#2c2c30}}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.6 -apple-system,"Segoe UI","PingFang SC","Noto Sans CJK SC",sans-serif}
+main{max-width:1100px;margin:0 auto;padding:28px 16px 60px}h1{font-size:20px;margin:0 0 4px}.m{color:var(--muted);font-size:13px;margin:0 0 20px}
+video,img{display:block;width:100%;border-radius:10px;border:1px solid var(--line);background:var(--card)}figure{margin:0 0 28px}figcaption{color:var(--muted);font-size:13px;margin-top:8px}
+a{color:inherit}</style>
+<main><h1>#1282 界面预览</h1><p class="m">commit 6dbe341 · <a href="https://github.com/yetone/magpie/pull/1282">回到 PR</a> · 这个 PR 让 remote-magpie 供应商从远端发现显式标记的决策模型（kind: decision），并把 System One 请求转发给它们；供应商编辑面板收到的 deciders 列表改为显式（可为空），从而不再把名为 Jev Router 的对话模型猜成决策模型。界面本身没有新增文字、按钮或页面，变化只体现在已有页面的模型分类与 System One 示例模型上。</p>
+<figure><video src="preview.mp4" controls autoplay muted playsinline poster="poster.png"></video><figcaption>红线是鼠标走过的轨迹，红色圆环是一次点击；底部文字是这一步在做什么。空格暂停，← → 逐段查看。</figcaption></figure>
+<figure><img src="01-system-one-snippet.png" alt="System One 下的模型字段与示例片段"><figcaption>网关页 System One 示例中的决策模型位置 · System One 下的模型字段与示例片段</figcaption></figure>
+<figure><img src="02-provider-editor.png" alt="Sub2API Relay 编辑面板里的模型列表"><figcaption>供应商编辑面板里的模型列表 · Sub2API Relay 编辑面板里的模型列表</figcaption></figure>
+</main></html>
